@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Menu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SampleConstants.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Achievements.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AchievementsDefinitionsDialog.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\pch.h">
+      <Filter>SharedSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\AccountHelpers.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Authentication.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\EosUI.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Friends.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Metrics.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Platform.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Player.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\Users.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\Console.h">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GfxComponent.h">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\Model.h">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClInclude>
+	<ClInclude Include="..\Shared\Source\Graphics\GUI\AssetUtils.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\AuthDialogs.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\ConsoleDialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Dialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\ExitDialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\FriendsDialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Button.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Checkbox.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\FriendInfo.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\FriendList.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Scroller.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Sprite.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\TextField.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\TextLabel.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\TextView.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Widget.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Font.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\Texture.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\UIEvent.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Input\Input.h">
+      <Filter>SharedSource\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Main\Main.h">
+      <Filter>SharedSource\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Main\Windows\DeviceResources.h">
+      <Filter>SharedSource\Main\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Math\Color.h">
+      <Filter>SharedSource\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Math\Matrix.h">
+      <Filter>SharedSource\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Math\Vector2.h">
+      <Filter>SharedSource\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Math\Vector3.h">
+      <Filter>SharedSource\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\CommandLine.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\DebugLog.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\StepTimer.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\StringUtils.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\AnimatedTexture.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\TextureManager.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\SDLSpriteBatch.h">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\SDLTTF.h">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\TextEditor.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\ListView.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\ProgressBar.h">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Input\SDLInput.h">
+      <Filter>SharedSource\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\VectorRender.h">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_achievements.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_achievements_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_auth.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_auth_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_base.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_common.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_ecom.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_ecom_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_friends.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_friends_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_init.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_logging.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_metrics.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_metrics_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_p2p.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_p2p_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_playerdatastorage.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_playerdatastorage_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_presence.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_presence_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_sdk.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_sessions.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_sessions_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_stats.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_stats_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_userinfo.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_userinfo_types.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\Include\eos_version.h">
+      <Filter>EOSSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\Utils.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\GameEvent.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\NotificationDialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Core\HTTPClient.h">
+      <Filter>SharedSource\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Graphics\GUI\PopupDialog.h">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\Settings.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\Utils\CircularBuffer.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\BaseGame.h">
+      <Filter>SharedSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\BaseLevel.h">
+      <Filter>SharedSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Source\BaseMenu.h">
+      <Filter>SharedSource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EOSSDK">
+      <UniqueIdentifier>{fcf9b49b-2f09-4232-814e-1d08d8bab009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedAssets">
+      <UniqueIdentifier>{d95191aa-0506-42ad-8d00-8c808f5cef2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource">
+      <UniqueIdentifier>{e803a3d6-c2c1-4e01-80b5-9cf7adae0ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Core">
+      <UniqueIdentifier>{9a536066-64d8-4ba3-bc98-a634303e72f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Utils">
+      <UniqueIdentifier>{562eeed2-1f92-4d57-ab9b-918941fadc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Graphics">
+      <UniqueIdentifier>{6cdd3c94-d88b-4472-b83c-a3f33852b01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Graphics\GUI">
+      <UniqueIdentifier>{89f97cfd-bcd5-435e-821d-5c28c73d76d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Graphics\GUI\Dialogs">
+      <UniqueIdentifier>{6a534e1a-d47f-4e33-9e3e-6507b8d20ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Graphics\GUI\Widgets">
+      <UniqueIdentifier>{1c22c36a-c104-49c2-8fd6-49fa0783d374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Main">
+      <UniqueIdentifier>{4596e2fc-c213-4d86-ab0e-151726755c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Main\Windows">
+      <UniqueIdentifier>{8beac9f5-77d8-48d1-8f15-b8a8defbfc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Input">
+      <UniqueIdentifier>{6411e1cf-d1af-4bf9-809b-13b838018802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Math">
+      <UniqueIdentifier>{f516f058-b322-4fde-b264-0e9de83cc2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{686bd395-b1ec-4d2b-91d1-2b4a2ed7d490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Main\SDL">
+      <UniqueIdentifier>{a2a870b3-ac35-4588-8ace-1806d63fc865}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Menu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Achievements.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AchievementsDefinitionsDialog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\pch.cpp">
+      <Filter>SharedSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\AccountHelpers.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Authentication.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Friends.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Metrics.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Platform.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Player.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\Users.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\Console.cpp">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\Model.cpp">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClCompile>
+	<ClCompile Include="..\Shared\Source\Graphics\GUI\AssetUtils.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\AuthDialogs.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\ConsoleDialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\ExitDialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\FriendsDialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Button.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Checkbox.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\FriendInfo.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\FriendList.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Scroller.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Sprite.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\TextField.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\TextLabel.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\TextView.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Widget.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Font.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Texture.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Input\Input.cpp">
+      <Filter>SharedSource\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Main\Main.cpp">
+      <Filter>SharedSource\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Main\Windows\DeviceResources.cpp">
+      <Filter>SharedSource\Main\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Main\Windows\WinMain.cpp">
+      <Filter>SharedSource\Main\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Math\Vector2.cpp">
+      <Filter>SharedSource\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Math\Vector3.cpp">
+      <Filter>SharedSource\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Utils\CommandLine.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Utils\DebugLog.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Utils\StringUtils.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\AnimatedTexture.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\TextureManager.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\SDLSpriteBatch.cpp">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\SDLTTF.cpp">
+      <Filter>SharedSource\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\TextEditor.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\ProgressBar.cpp">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Input\SDLInput.cpp">
+      <Filter>SharedSource\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Main\SDL\SDLMain.cpp">
+      <Filter>SharedSource\Main\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\VectorRender.cpp">
+      <Filter>SharedSource\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\Dialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Utils\Utils.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\NotificationDialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\HTTPClient.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Graphics\GUI\PopupDialog.cpp">
+      <Filter>SharedSource\Graphics\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Utils\Settings.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\Core\EosUI.cpp">
+      <Filter>SharedSource\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\BaseGame.cpp">
+      <Filter>SharedSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\BaseLevel.cpp">
+      <Filter>SharedSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Source\BaseMenu.cpp">
+      <Filter>SharedSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\game.ico">
+      <Filter>Source</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\addbutton.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\button.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\checkbox_ticked.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\checkbox_unticked.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\console.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\friendback.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\friends.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\Logo.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\menu_background.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\nobutton.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\scroll_down_button.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\scroll_up_button.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\scrollbar.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\search.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\solid_white.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\textfield.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\yesbutton.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+    <Image Include="..\Shared\Assets\button_pressed.dds">
+      <Filter>SharedAssets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\resource.aps">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto8.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto10.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto12.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto14.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto16.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto18.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\Roboto24.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold10.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold12.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold14.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold16.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold18.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Assets\RobotoBold24.spritefont">
+      <Filter>SharedAssets</Filter>
+    </None>
+    <None Include="..\Shared\Source\Graphics\GUI\ListView.inl">
+      <Filter>SharedSource\Graphics\GUI\Widgets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\resource.rc">
+      <Filter>Source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
