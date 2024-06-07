@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <EOSSDKIncludes>..\..\SDK\Include\</EOSSDKIncludes>
+    <EOSSDKLibs>..\..\SDK\Lib\</EOSSDKLibs>
+    <EOSSDKDLLs>..\..\SDK\Bin\</EOSSDKDLLs>
+    <EOSSDKSamplesRoot>..</EOSSDKSamplesRoot>
+    <SteamSDK>..\Shared\External\SteamSDK</SteamSDK>
+    <XAudio2_9Bin>..\..\SDK\Bin\</XAudio2_9Bin>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="EOSSDKIncludes">
+      <Value>$(EOSSDKIncludes)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EOSSDKLibs">
+      <Value>$(EOSSDKLibs)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EOSSDKDLLs">
+      <Value>$(EOSSDKDLLs)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EOSSDKSamplesRoot">
+      <Value>$(EOSSDKSamplesRoot)</Value>
+    </BuildMacro>
+	<BuildMacro Include="SteamSDK">
+      <Value>$(SteamSDK)</Value>
+    </BuildMacro>
+	<BuildMacro Include="XAudio2_9Bin">
+      <Value>$(XAudio2_9Bin)</Value>
+    </BuildMacro>
+  </ItemGroup>
+  <PropertyGroup Label="Debugging Properties" Condition="'$(Platform)'=='Win32'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)Bin\Win32\$(Configuration)</LocalDebuggerWorkingDirectory>
+	<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  <PropertyGroup Label="Debugging Properties" Condition="'$(Platform)'=='x64'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)Bin\Win64\$(Configuration)</LocalDebuggerWorkingDirectory>
+	<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+</Project>
