@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SharedSource">
+      <UniqueIdentifier>{dd833a82-590b-493f-a4d1-87b48427e8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSource\Utils">
+      <UniqueIdentifier>{877d3ba7-b77b-42d5-a38e-a7a6420ed9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{d848b34a-2c50-4bc7-abdc-2f347fdacd68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceSdk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ApiParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceHost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceRequestKickUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceRequestMuteUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceRequestJoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoiceRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Source\Utils\CommandLine.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Source\Utils\DebugLog.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Source\Utils\Settings.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Source\Utils\StringUtils.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Source\Utils\Utils.cpp">
+      <Filter>SharedSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\ServerMain.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SampleConstants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceSdk.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ApiParams.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceApi.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceHost.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceSession.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceUser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceRequestKickUser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceRequestMuteUser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceRequestJoin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoiceRequest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NonCopyable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Source\Utils\CommandLine.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Source\Utils\DebugLog.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Source\Utils\Settings.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Source\Utils\StringUtils.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Source\Utils\Utils.h">
+      <Filter>SharedSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main\Main.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
