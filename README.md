@@ -27,3 +27,8 @@
 They have already done great work. I just gathered all the resources together, along with the EAC SDK.
 
 
+# Disclaimer
+The information provided in this repository is intended for educational and research purposes only. Any attempt to implement the insights or methodologies described herein should be done in accordance with applicable laws and regulations, and with explicit permission from relevant parties. The authors and contributors of this repository bear no responsibility for any misuse or unauthorized application of the materials presented here.
+
+# Purpose
+The aim of this repository is to bring together existing knowledge and resources on EAC, facilitating a deeper understanding of its mechanisms and assisting developers in effectively implementing and securing their games against cheats. By compiling the EAC SDK and the extensive research conducted by experts in the field, we hope to provide a comprehensive resource for both learning and practical application.
