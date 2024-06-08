@@ -41,7 +41,7 @@ I have also uploaded the latest EOS driver, deobfuscated, along with a Python sc
 
 They have already done great work. I just gathered all the resources together, along with the EAC SDK.
 
-
+Happy reversing.
 # Disclaimer
 The information provided in this repository is intended for educational and research purposes only. Any attempt to implement the insights or methodologies described herein should be done in accordance with applicable laws and regulations, and with explicit permission from relevant parties. The authors and contributors of this repository bear no responsibility for any misuse or unauthorized application of the materials presented here.
 
