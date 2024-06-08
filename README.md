@@ -5,13 +5,13 @@
 * لقد قمت بإضافة اخر درايفر لـ EOS بعد أن قمت بفك تشفيرة.
 
 
-قبل فك التشفير: 
+قبل فك التشفير - Before: 
 <p align="center">
   <img src="https://github.com/Mes2d/EAC/blob/main/Images/1.png">
 </p>
 
 
-بعد: 
+بعد - After: 
 <p align="center">
   <img src="https://github.com/Mes2d/EAC/blob/main/Images/2.png">
 </p>
